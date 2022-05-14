@@ -128,7 +128,7 @@ export const CreatePage = () => {
               пожелаете.
             </p>
           </div>
-         </div>
+        </div>
       </div>
     </div>
   );

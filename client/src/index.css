@@ -9,7 +9,7 @@ body {
 }
 
 .title, h2 {
-  background-color: #1178ff70;
+  background-color: #1178ff28;
   padding: 10px;
 }
 
@@ -17,9 +17,16 @@ p {
   font-size: 20px;
 }
 
-input {
-  display: block;
-  margin: 0px 20px;
+.links-list {
+  background-color: #1178ff28;
+  padding: 10px;
+  min-height: 92vh;
+}
+
+.links-list a {
+  background-color: #ffffff52;
+  padding: 4px 8px;
+  color: black;
 }
 
 input.yellow-input {
@@ -41,5 +48,7 @@ input.yellow-input:focus {
 }
 
 .shorten {
-  padding: 30px 0px 30px;
+  margin: 2px -50px 0;
+  padding: 30px 50px 30px;
+  background-color: #cccccc80;
 }
