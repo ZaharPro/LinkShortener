@@ -1,6 +1,6 @@
 {
   "port": 5000,
-  "jwtSecret": "671685807220106149193834424047820825531177424564675125938478858255946789580571977165175",
-  "mongoUri": "mongodb+srv://zahar:2Y@jUSp8mxmhz8W@maincluster.mqj62.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-  "baseUrl": "http://localhost:5000"
+  "jwtSecret": "10101010100101",
+  "mongoUri": "mongodb+srv://<login>:<password>@cluster.mqj11.mongodb.net/dbname?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:7000"
 }
