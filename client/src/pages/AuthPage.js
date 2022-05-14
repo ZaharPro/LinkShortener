@@ -42,10 +42,10 @@ export const AuthPage = () => {
   return (
     <div className="row">
       <div className="col s6 offset-s3">
-        <h1>LinkShortener</h1>
-        <div className="card blue darken-1">
-          <div className="card-content white-text">
-            <span className="card-title">Log in</span>
+        <h2>LinkShortener</h2>
+        <div className="card auth">
+          <div className="card-content white-text" style={{paddingBottom: "0px"}}>
+            <span className="card-title" style={{paddingBottom: "10px"}}>Log in</span>
             <div>
               <div className="input-field">
                 <input
@@ -55,6 +55,7 @@ export const AuthPage = () => {
                   name="email"
                   className="yellow-input"
                   value={form.email}
+                  style={{paddingLeft:"5px"}}
                   onChange={changeHandler}
                 />
                 <label htmlFor="email">Email</label>
@@ -67,6 +68,7 @@ export const AuthPage = () => {
                   type="password"
                   name="password"
                   className="yellow-input"
+                  style={{paddingLeft:"5px"}}
                   value={form.password}
                   onChange={changeHandler}
                 />
@@ -74,7 +76,7 @@ export const AuthPage = () => {
               </div>
             </div>
           </div>
-          <div className="card-action">
+          <div className="card-action" style={{paddingTop: "5px"}}>
             <button
               className="btn yellow darken-4"
               style={{ marginRight: 10 }}
