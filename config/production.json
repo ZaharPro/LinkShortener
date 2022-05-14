@@ -1,0 +1,6 @@
+{
+  "port": 7000,
+  "jwtSecret": "10101010100101",
+  "mongoUri": "mongodb+srv://<login>:<password>@cluster.mqj11.mongodb.net/dbname?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:7000"
+}
