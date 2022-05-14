@@ -42,14 +42,14 @@ export const AuthPage = () => {
   return (
     <div className="row">
       <div className="col s6 offset-s3">
-        <h1>Link Shortener</h1>
+        <h1>LinkShortener</h1>
         <div className="card blue darken-1">
           <div className="card-content white-text">
-            <span className="card-title">Sing up</span>
+            <span className="card-title">Log in</span>
             <div>
               <div className="input-field">
                 <input
-                  placeholder="Введите email"
+                  placeholder="Enter email"
                   id="email"
                   type="text"
                   name="email"
@@ -62,7 +62,7 @@ export const AuthPage = () => {
 
               <div className="input-field">
                 <input
-                  placeholder="Введите пароль"
+                  placeholder="Enter password"
                   id="password"
                   type="password"
                   name="password"
