@@ -77,15 +77,6 @@ export const CreatePage = () => {
           </div>
           <div class="col-sm-4">
             <div class="advantage">
-              <h4 class="title">Рабочая альтернатива goo.gl</h4>
-              <p class="icons domain text">
-                В отличие от закрытого проекта от google — sURL поддерживает
-                действительно короткие адреса вида surl.li/clck
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="advantage">
               <h4 class="title">Ускорение работы сайтов</h4>
               <p class="icons domain text">
                 Использование коротких URL повышает CTR на 106–146%
@@ -94,7 +85,7 @@ export const CreatePage = () => {
           </div>
           <div class="col-sm-12">
             <h4 class="title">
-              sURL — Сервис сокращенных ссылок со статистикой
+              LinkShortener — Сервис сокращенных ссылок со статистикой
             </h4>
             <p>
               Всего в 1 клик вы получите краткую ссылку — аналог вашего длинного
